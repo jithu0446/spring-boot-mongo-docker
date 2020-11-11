@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: jitendra7829/spring-boot-mongo:$BUILD_NUMBER
+    image: jitendra7829/spring-boot-mongo:$BUILDNO
     environment:
     - MONGO_DB_HOSTNAME=mongo
     ports:
